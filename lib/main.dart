@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
           title: AppStrings.appName,
           theme: AppTheme.lightTheme,
           darkTheme: AppTheme.darkTheme,
-          themeMode: ThemeMode.dark,
+          themeMode: ThemeMode.light,
           getPages: pages,
           initialRoute: RoutesName.formFillView,
           initialBinding: BaseBinding(),
